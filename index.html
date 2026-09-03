@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Integrasi Platform Akademik Universitas — Studi Kasus</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+
+<nav class="topbar" id="topbar">
+  <a href="#q1" data-nav>01 Tujuan</a>
+  <a href="#q2" data-nav>02 Manfaat</a>
+  <a href="#q3" data-nav>03 Risiko</a>
+  <a href="#q4" data-nav>04 Sumber Daya</a>
+  <a href="#q5" data-nav>05 Indikator</a>
+  <a href="#kesimpulan" data-nav>Kesimpulan</a>
+</nav>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div>
+      <p class="hero-eyebrow">Berlian Andromeda Hanif Adinismara - 25082010153</p>
+      <h1>Integrasi Platform Akademik Universitas</h1>
+      <p class="lede">Lima pertanyaan kunci yang harus dijawab sebelum, selama, dan sesudah sebuah universitas menyatukan aplikasi akademiknya yang terpisah menjadi satu platform.</p>
+    </div>
+    <div class="hero-figure" aria-hidden="true">
+      <svg viewBox="0 0 400 340">
+        <line class="link" x1="70" y1="60" x2="200" y2="170" stroke="#3A5674" stroke-width="1.5"/>
+        <line class="link" x1="330" y1="50" x2="200" y2="170" stroke="#3A5674" stroke-width="1.5"/>
+        <line class="link" x1="55" y1="220" x2="200" y2="170" stroke="#3A5674" stroke-width="1.5"/>
+        <line class="link" x1="330" y1="240" x2="200" y2="170" stroke="#3A5674" stroke-width="1.5"/>
+        <line class="link" x1="200" y1="290" x2="200" y2="170" stroke="#3A5674" stroke-width="1.5"/>
+
+        <g class="node">
+          <circle cx="70" cy="60" r="26" fill="#16283F" stroke="#4A6685" stroke-width="1"/>
+          <text x="70" y="65" text-anchor="middle" font-size="10" fill="#AEC0D2" font-family="Inter">KRS</text>
+        </g>
+        <g class="node">
+          <circle cx="330" cy="50" r="26" fill="#16283F" stroke="#4A6685" stroke-width="1"/>
+          <text x="330" y="55" text-anchor="middle" font-size="10" fill="#AEC0D2" font-family="Inter">Nilai</text>
+        </g>
+        <g class="node">
+          <circle cx="55" cy="220" r="26" fill="#16283F" stroke="#4A6685" stroke-width="1"/>
+          <text x="55" y="225" text-anchor="middle" font-size="10" fill="#AEC0D2" font-family="Inter">Keuangan</text>
+        </g>
+        <g class="node">
+          <circle cx="330" cy="240" r="26" fill="#16283F" stroke="#4A6685" stroke-width="1"/>
+          <text x="330" y="245" text-anchor="middle" font-size="9.5" fill="#AEC0D2" font-family="Inter">Perpustakaan</text>
+        </g>
+        <g class="node">
+          <circle cx="200" cy="290" r="26" fill="#16283F" stroke="#4A6685" stroke-width="1"/>
+          <text x="200" y="295" text-anchor="middle" font-size="10" fill="#AEC0D2" font-family="Inter">Alumni</text>
+        </g>
+
+        <g class="node">
+          <circle cx="200" cy="170" r="46" fill="#46D4FF"/>
+          <text x="200" y="167" text-anchor="middle" font-size="11" fill="#04121F" font-family="Fraunces" font-weight="600">Platform</text>
+          <text x="200" y="181" text-anchor="middle" font-size="11" fill="#04121F" font-family="Fraunces" font-weight="600">Terintegrasi</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+
+  <div class="case-card">
+    <p class="label">Deskripsi kasus</p>
+    <p><em>Sebuah universitas ingin mengganti beberapa aplikasi akademik terpisah menjadi satu platform terintegrasi. Proyek ini diperkirakan mahal, membutuhkan migrasi data, perubahan proses, dan kerja sama dengan banyak unit.</em></p>
+  </div>
+</header>
+
+<div class="layout">
+  <nav class="sidenav" id="sidenav">
+    <a href="#q1" data-nav><span class="nav-num">01</span>Tujuan strategis</a>
+    <a href="#q2" data-nav><span class="nav-num">02</span>Manfaat</a>
+    <a href="#q3" data-nav><span class="nav-num">03</span>Risiko utama</a>
+    <a href="#q4" data-nav><span class="nav-num">04</span>Sumber daya</a>
+    <a href="#q5" data-nav><span class="nav-num">05</span>Indikator</a>
+    <a href="#kesimpulan" data-nav class="kesimpulan-link">Kesimpulan</a>
+  </nav>
+
+  <main>
+
+    <section class="qsec" id="q1">
+      <div class="kicker"><span class="num">01</span><h2>Apa tujuan strategis yang harus dijelaskan sebelum proyek dimulai?</h2></div>
+      <p class="intro">Sebelum proyek dimulai, pimpinan perlu menjelaskan alasan mendasar mengapa investasi besar ini layak dijalankan.</p>
+      <div class="item-list">
+        <div class="item"><span class="dot"></span><div class="body"><b>Satu sumber kebenaran data</b><span>Menyatukan data mahasiswa, nilai, keuangan, dan administrasi ke dalam satu sumber yang konsisten dan akurat.</span></div></div>
+        <div class="item"><span class="dot"></span><div class="body"><b>Efisiensi operasional</b><span>Mengurangi duplikasi input data, mempercepat layanan akademik, menurunkan biaya pemeliharaan banyak sistem terpisah.</span></div></div>
+        <div class="item"><span class="dot"></span><div class="body"><b>Peningkatan kualitas layanan</b><span>Memberi pengalaman yang konsisten dan mudah diakses bagi mahasiswa, dosen, dan staf.</span></div></div>
+        <div class="item"><span class="dot"></span><div class="body"><b>Kesiapan jangka panjang</b><span>Membangun sistem yang mudah dikembangkan untuk kebutuhan masa depan, seperti analitik akademik atau integrasi eksternal.</span></div></div>
+        <div class="item"><span class="dot"></span><div class="body"><b>Keselarasan dengan rencana institusi</b><span>Menghubungkan proyek dengan visi digitalisasi kampus agar dukungan lintas unit lebih mudah diperoleh.</span></div></div>
+      </div>
+      <p class="outro">Kejelasan tujuan ini membuat setiap unit memahami "mengapa" proyek dijalankan — bukan sekadar "apa" yang dibangun.</p>
+    </section>
+
+    <section class="qsec" id="q2">
+      <div class="kicker"><span class="num">02</span><h2>Manfaat apa yang harus dibuktikan setelah sistem diimplementasikan?</h2></div>
+      <p class="intro">Investasi harus terbukti memberi hasil nyata, bukan hanya klaim di atas kertas.</p>
+      <div class="item-list">
+        <div class="item"><span class="dot"></span><div class="body"><b>Efisiensi waktu proses</b><span>Berkurangnya waktu administrasi akademik, misalnya pengisian KRS dan pengelolaan nilai.</span></div></div>
+        <div class="item"><span class="dot"></span><div class="body"><b>Penghematan biaya operasional</b><span>Turunnya biaya lisensi dan pemeliharaan dibanding saat masih memakai banyak aplikasi terpisah.</span></div></div>
+        <div class="item"><span class="dot"></span><div class="body"><b>Peningkatan akurasi data</b><span>Berkurangnya kesalahan input dan ketidaksesuaian data antarunit.</span></div></div>
+        <div class="item"><span class="dot"></span><div class="body"><b>Kepuasan pengguna</b><span>Meningkatnya kepuasan mahasiswa, dosen, dan staf terhadap kemudahan sistem baru.</span></div></div>
+        <div class="item"><span class="dot"></span><div class="body"><b>Kecepatan pengambilan keputusan</b><span>Pimpinan dapat mengambil keputusan lebih cepat berkat laporan dan data real-time.</span></div></div>
+      </div>
+      <p class="outro">Manfaat ini sebaiknya diukur dengan data sebelum-dan-sesudah, agar proyek dapat dipertanggungjawabkan.</p>
+    </section>
+
+    <section class="qsec" id="q3">
+      <div class="kicker"><span class="num">03</span><h2>Risiko utama apa yang harus menjadi perhatian pimpinan?</h2></div>
+      <p class="intro">Proyek besar lintas unit ini membawa risiko yang perlu mitigasi sejak awal.</p>
+      <div class="item-list">
+        <div class="item"><span class="dot"></span><div class="body"><b>Migrasi data</b><span>Risiko kehilangan atau ketidaksesuaian data saat berpindah dari sistem lama.</span></div><span class="tag tinggi">Tinggi</span></div>
+        <div class="item"><span class="dot"></span><div class="body"><b>Resistensi perubahan</b><span>Penolakan pengguna yang sudah terbiasa dengan sistem lama.</span></div><span class="tag sedang">Sedang</span></div>
+        <div class="item"><span class="dot"></span><div class="body"><b>Pembengkakan biaya & waktu</b><span>Proyek melebihi estimasi awal karena kompleksitas integrasi antarunit.</span></div><span class="tag tinggi">Tinggi</span></div>
+        <div class="item"><span class="dot"></span><div class="body"><b>Keamanan data</b><span>Kebocoran data pribadi jika standar keamanan tidak memadai.</span></div><span class="tag tinggi">Tinggi</span></div>
+        <div class="item"><span class="dot"></span><div class="body"><b>Gangguan operasional saat transisi</b><span>Layanan akademik terganggu jika sistem baru bermasalah di masa peralihan.</span></div><span class="tag sedang">Sedang</span></div>
+        <div class="item"><span class="dot"></span><div class="body"><b>Ketergantungan pada vendor/tim teknis</b><span>Risiko jika hanya sedikit orang yang memahami sistem secara mendalam.</span></div><span class="tag sedang">Sedang</span></div>
+      </div>
+      <p class="outro">Setiap risiko di atas perlu rencana mitigasi yang jelas sebelum proyek disetujui berjalan penuh.</p>
+    </section>
+
+    <section class="qsec" id="q4">
+      <div class="kicker"><span class="num">04</span><h2>Sumber daya apa yang paling kritis?</h2></div>
+      <p class="intro">Tanpa sumber daya berikut, sumber daya lain sulit dikelola secara efektif.</p>
+
+      <div class="res-row">
+        <div class="res-top"><b>Dukungan &amp; komitmen pimpinan</b><span class="res-pct">Paling kritis</span></div>
+        <div class="res-bar"><i style="width:96%"></i></div>
+        <span class="desc">Mengalokasikan anggaran dan menyelesaikan hambatan lintas unit.</span>
+      </div>
+      <div class="res-row">
+        <div class="res-top"><b>Sumber daya manusia yang kompeten</b><span class="res-pct">Sangat kritis</span></div>
+        <div class="res-bar"><i style="width:90%"></i></div>
+        <span class="desc">Tim IT internal dan/atau vendor berpengalaman dalam integrasi sistem.</span>
+      </div>
+      <div class="res-row">
+        <div class="res-top"><b>Data yang berkualitas</b><span class="res-pct">Kritis</span></div>
+        <div class="res-bar"><i style="width:80%"></i></div>
+        <span class="desc">Data akademik lama yang lengkap dan valid, siap dimigrasikan.</span>
+      </div>
+      <div class="res-row">
+        <div class="res-top"><b>Anggaran yang memadai</b><span class="res-pct">Kritis</span></div>
+        <div class="res-bar"><i style="width:75%"></i></div>
+        <span class="desc">Termasuk dana cadangan (contingency) untuk risiko tak terduga.</span>
+      </div>
+      <div class="res-row">
+        <div class="res-top"><b>Keterlibatan unit-unit terkait</b><span class="res-pct">Penting</span></div>
+        <div class="res-bar"><i style="width:68%"></i></div>
+        <span class="desc">Perwakilan tiap unit sebagai jembatan komunikasi dan validasi kebutuhan.</span>
+      </div>
+      <div class="res-row">
+        <div class="res-top"><b>Waktu implementasi yang realistis</b><span class="res-pct">Penting</span></div>
+        <div class="res-bar"><i style="width:65%"></i></div>
+        <span class="desc">Cukup waktu untuk perencanaan, uji coba, dan pelatihan pengguna.</span>
+      </div>
+      <p class="outro">Dukungan pimpinan dan kualitas SDM sering jadi faktor paling menentukan — tanpa keduanya, dana dan waktu pun sulit dikelola efektif.</p>
+    </section>
+
+    <section class="qsec" id="q5">
+      <div class="kicker"><span class="num">05</span><h2>Indikator apa yang perlu dipantau?</h2></div>
+      <p class="intro">Pemantauan berkala membantu masalah terdeteksi sejak dini, sebelum berdampak besar.</p>
+      <div class="item-list">
+        <div class="item"><span class="dot"></span><div class="body"><b>Kemajuan proyek</b><span>Realisasi biaya dan waktu dibanding rencana awal (on-time, on-budget).</span></div><span class="tag mingguan">Mingguan</span></div>
+        <div class="item"><span class="dot"></span><div class="body"><b>Keberhasilan migrasi data</b><span>Persentase data yang berhasil dipindahkan dan tervalidasi.</span></div><span class="tag mingguan">Mingguan</span></div>
+        <div class="item"><span class="dot"></span><div class="body"><b>Adopsi pengguna</b><span>Seberapa cepat dan luas pengguna mulai aktif memakai sistem baru.</span></div><span class="tag bulanan">Bulanan</span></div>
+        <div class="item"><span class="dot"></span><div class="body"><b>Insiden atau gangguan sistem</b><span>Jumlah downtime dan bug yang muncul setelah sistem digunakan.</span></div><span class="tag mingguan">Mingguan</span></div>
+        <div class="item"><span class="dot"></span><div class="body"><b>Waktu proses layanan akademik</b><span>Perbandingan durasi proses utama sebelum dan sesudah implementasi.</span></div><span class="tag bulanan">Bulanan</span></div>
+        <div class="item"><span class="dot"></span><div class="body"><b>Kepuasan pengguna</b><span>Hasil survei terhadap kemudahan dan manfaat sistem baru.</span></div><span class="tag bulanan">Bulanan</span></div>
+        <div class="item"><span class="dot"></span><div class="body"><b>Keamanan data</b><span>Jumlah dan tingkat keparahan insiden keamanan data.</span></div><span class="tag mingguan">Mingguan</span></div>
+      </div>
+    </section>
+
+    <section class="kesimpulan" id="kesimpulan">
+      <span class="num">Kesimpulan</span>
+      <p>Keberhasilan proyek ini tidak hanya ditentukan oleh kesiapan teknologi — melainkan oleh kejelasan tujuan strategis, dukungan penuh pimpinan, manajemen risiko yang matang, serta pemantauan indikator kinerja secara konsisten dari awal hingga sistem berjalan stabil.</p>
+    </section>
+
+  </main>
+</div>
+
+<div class="footer-band">
+  <footer>
+    <span>Berlian Andromeda Hanif Adinismara - 25082010153</span>
+    <span>Tugas Individu · Tata Kelola Teknologi Informasi</span>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
